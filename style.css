@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #f5f5f5;
+
+}
+
+.container{
+    margin: 0 16px;
+}
+
+.nav{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.logo__nombre{
+    font-size: 16px;
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav__link{
+    display: none;
+    text-decoration: none;
+}
+
+.nav__link--contacto{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero{
+    padding: 16px 0;
+}
+
+.hero__picture{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 16px;
+}
+
+.hero__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__titulo{
+    margin-top: 16px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hero__parrafo{
+    margin-top: 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hero__redes{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.hero__link a {
+    color: #464646;
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+    
+}
+
+.seccion__azul{
+    background-color: #EAF2FD;
+}
+
+
+.sobremi{
+    padding: 16px 0;
+}
+
+.sobremi__titulo{
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.sobremi__parrafo{
+    margin: 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.sobremi__picture{
+    display: block;
+    width: 140px;
+    height: 52px;
+}
+
+.sobremi__img{
+    width: 100%;
+    height: 100%;
+}
+
+.skills{
+    padding: 16px 0;
+}
+
+.skills__tecnologias{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.skills__titulo{
+    padding: 16px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+    width: 156px;
+    height: 118px;
+    background-color: #ffffff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.card__titulo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hobbies{
+    padding-bottom: 16px;
+}
+
+.hobbies__titulo{
+    padding: 16px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hobbies__tecnologias{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.formacion__cards{
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.formacion__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 118px;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.formacion__img{
+    width: 84px;
+    height: 58px;
+}
+
+
+
+
+
+
+
+
