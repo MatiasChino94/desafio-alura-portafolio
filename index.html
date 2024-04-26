@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Portafolio - Matias Martinez</title>
+    <title>Portafolio - Fulano</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header container">
 
-        <nav class="nav container">
+        <nav class="nav">
             <div class="nav__logo">
                 <img class="logo__icono" src="./img/logo.png" alt="">
                 <h2 class="logo__nombre">Fulana de Tal</h2>
@@ -27,42 +27,51 @@
                 <a class="nav__link" href="">Hobbies</a>
                 <a class="nav__link" href="">Formacion</a>
                 <a class="nav__link" href="">Proyectos</a>
-                <a class="nav__link nav__link--contacto" href="">contacto@fulana.com</a>
+                <a class="nav__link nav__link--contacto" href="">contacto@fulano.com</a>
             </div>
         </nav>
 
-        <div class="hero container">
+        <div class="hero">
+
+
             <picture class="hero__picture">
                 <img class="hero__img" src="./img/perfil__img.png" alt="">
             </picture>
-            <h1 class="hero__titulo">
-                Hola, mi nombre es Fulana de Tal y construyo paginas web
-            </h1>
-            <p class="hero__parrafo">
-                Soy formada en lorem ipsum sit amet consectetur e actualmente estoy
-                participando en el proyecto Oracle ONE en Alura Latam.
-            </p>
-            <ul class="hero__redes">
-                <li class="hero__link">
-                    <a href="#">Github <img src="./img/flecha__negra.png" alt=""></a>
-                </li>
-                <li class="hero__link">
-                    <a href="#">Linkedin<img src="./img/flecha__negra.png" alt=""></a>
-                </li>
-                <li class="hero__link">
-                    <a href="#">Instagram<img src="./img/flecha__negra.png" alt=""></a>
-                </li>
-                <li class="hero__link">
-                    <a href="#">Curriculo<img src="./img/flecha__negra.png" alt=""></a>
-                </li>
-            </ul>
+
+
+            <div class="hero__presentacion">
+                <h1 class="hero__titulo">
+                    Hola, mi nombre es Fulana de Tal y construyo paginas web
+                </h1>
+    
+                <p class="hero__parrafo">
+                    Soy formada en lorem ipsum sit amet consectetur e actualmente estoy
+                    participando en el proyecto Oracle ONE en Alura Latam.
+                </p>
+    
+                <ul class="hero__redes">
+                    <li class="hero__link">
+                        <a href="#">Github <img src="./img/flecha__negra.png" alt=""></a>
+                    </li>
+                    <li class="hero__link">
+                        <a href="#">Linkedin<img src="./img/flecha__negra.png" alt=""></a>
+                    </li>
+                    <li class="hero__link">
+                        <a href="#">Instagram<img src="./img/flecha__negra.png" alt=""></a>
+                    </li>
+                    <li class="hero__link">
+                        <a href="#">Curriculo<img src="./img/flecha__negra.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </header>
 
-    <main class="main">
+    <main class="main container">
 
         <div class="seccion__azul">
-            <section class="sobremi container">
+            <section class="sobremi">
                 <h2 class="sobremi__titulo">Sobre mi</h2>
                 <p class="sobremi__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
                     velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
@@ -77,7 +86,7 @@
             </section>
         </div>
 
-        <section class="skills container">
+        <section class="skills">
 
             <h2 class="skills__titulo">Skills</h2>
 
@@ -99,18 +108,18 @@
                     <h3 class="card__titulo">Node JS</h3>
                 </div>
                 <div class="card">
-                    <img  class="card__img"src="./img/php.png" alt="">
+                    <img class="card__img" src="./img/php.png" alt="">
                     <h3 class="card__titulo">PHP</h3>
                 </div>
                 <div class="card">
-                    <img  class="card__img"src="./img/react.png" alt="">
+                    <img class="card__img" src="./img/react.png" alt="">
                     <h3 class="card__titulo">React</h3>
                 </div>
             </div>
 
         </section>
 
-        <section class="hobbies container">
+        <section class="hobbies">
 
             <h2 class="hobbies__titulo">Hobbies</h2>
 
@@ -132,50 +141,167 @@
                     <h3 class="card__titulo">Ver series</h3>
                 </div>
                 <div class="card">
-                    <img  class="card__img"src="./img/cocina.png" alt="">
+                    <img class="card__img" src="./img/cocina.png" alt="">
                     <h3 class="card__titulo">Cocinar</h3>
                 </div>
                 <div class="card">
-                    <img  class="card__img"src="./img/camara.png" alt="">
+                    <img class="card__img" src="./img/camara.png" alt="">
                     <h3 class="card__titulo">Tomar fotos</h3>
                 </div>
             </div>
 
         </section>
 
-        <section class="formacion container">
-            <h2 class="formacion__titulo">Formacion academica</h2>
+        <div class="seccion__azul">
+            <section class="formacion">
+                <h2 class="formacion__titulo">Formacion academica</h2>
 
-            <div class="formacion__cards">
-                
-                <div class="formacion__card">
-                    <picture class="formacion__picture">
-                        <img class="formacion__img" src="./img/formacion1.png" alt="">
-                    </picture>
-                    <h3 class="formacion__subtitulo">Analisis de datos</h3>
-                    <p class="formacion__texto">2018 - UFRP</p>
+                <div class="formacion__cards">
+
+                    <div class="formacion__card">
+                        <picture class="formacion__picture">
+                            <img class="formacion__img" src="./img/formacion1.png" alt="">
+                        </picture>
+                        <h3 class="formacion__subtitulo">Analisis de datos</h3>
+                        <p class="formacion__texto">2018 - UFRP</p>
+                    </div>
+
+                    <div class="formacion__card">
+                        <picture class="formacion__picture">
+                            <img class="formacion__img" src="./img/formacion2.png" alt="">
+                        </picture>
+                        <h3 class="formacion__subtitulo">Formacion en UX Design</h3>
+                        <p class="formacion__texto">2019 - Alura</p>
+                    </div>
+
+                    <div class="formacion__card">
+                        <picture class="formacion__picture">
+                            <img class="formacion__img" src="./img/formacion3.png" alt="">
+                        </picture>
+                        <h3 class="formacion__subtitulo">Posgrado en desingn</h3>
+                        <p class="formacion__texto">En curso - UFRJ</p>
+                    </div>
                 </div>
 
-                <div class="formacion__card">
-                    <picture class="formacion__picture">
-                        <img class="formacion__img"  src="./img/formacion2.png" alt="">
+            </section>
+        </div>
+
+        <section class="experiencia">
+
+            <h2 class="experiencia__titulo">Experiencia Profesional</h2>
+
+            <div class="experiencia__proyectos">
+
+                <div class="proyectos__card">
+                    <picture class="proyectos__picture">
+                        <img class="proyectos__img" src="./img/proyecto1.png" alt="">
                     </picture>
-                    <h3 class="formacion__subtitulo">Formacion en UX Design</h3>
-                    <p class="formacion__texto">2019 - Alura</p>
+
+                    <div class="proyectos__info">
+                        <h3 class="proyecto__titulo">Encriptador texto</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyectos__botones">
+                            <button class="boton">Repositorio</button>
+                            <button class="boton boton--azul">Ver demo</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="formacion__card">
-                    <picture class="formacion__picture">
-                        <img class="formacion__img" src="./img/formacion3.png" alt="">
+                <div class="proyectos__card">
+                    <picture class="proyectos__picture">
+                        <img class="proyectos__img" src="./img/proyecto2.png" alt="">
                     </picture>
-                    <h3 class="formacion__subtitulo">Posgrado en desingn</h3>
-                    <p class="formacion__texto">En curso - UFRJ</p>
+
+                    <div class="proyectos__info">
+                        <h3 class="proyecto__titulo">Juego creado con HTML y JavaScript</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyectos__botones">
+                            <button class="boton">Repositorio</button>
+                            <button class="boton boton--azul">Ver demo</button>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="proyectos__card">
+                    <picture class="proyectos__picture">
+                        <img class="proyectos__img" src="./img/proyecto3.png" alt="">
+                    </picture>
+
+                    <div class="proyectos__info">
+                        <h3 class="proyecto__titulo">Encriptador de texto</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyectos__botones">
+                            <button class="boton">Repositorio</button>
+                            <button class="boton boton--azul">Ver demo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyectos__card">
+                    <picture class="proyectos__picture">
+                        <img class="proyectos__img" src="./img/proyecto4.png" alt="">
+                    </picture>
+
+                    <div class="proyectos__info">
+                        <h3 class="proyecto__titulo">Juego creado con HTML, CSS y JavaScript</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyectos__botones">
+                            <button class="boton">Repositorio</button>
+                            <button class="boton boton--azul">Ver demo</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
         </section>
 
+        <div class="seccion__azul">
+            <section class="contacto">
+
+                <picture class="contacto__picture">
+                    <img class="contacto__img" src="./img/contacto__img.png" alt="">
+                </picture>
+
+                <form class="formulario" action="">
+                    <h3 class="formulario__titulo">Contacto</h3>
+                    <p class="formulario__texto">¿Quieres Contactarme?</p>
+                    <p class="formulario__texto">Complete el formulario y me pondre en contacto con usted lo antes posible.</p>
+
+                    <div class="formulario__inputs">
+                        <div class="formulario__input">
+                            <label for=""></label>
+                            <input class="input__texto" placeholder="Nombre" type="text">
+                        </div>
+                        <div class="formulario__input">
+                            <label for=""></label>
+                            <input class="input__texto" placeholder="Email" type="email">
+                        </div>
+                        <div class="formulario__input">
+                            <label for=""></label>
+                            <input class="input__texto" placeholder="Asunto" type="text">
+                        </div>
+                        <div class="formulario__input">
+                            <textarea class="input__textarea" name="" id="" cols="30" rows="10"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="boton boton--azul">Enviar Mensaje</button>
+
+                </form>
+
+            </section>
+        </div>
+
     </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Fulano de Tal 2024</p>
+    </footer>
 
 
 </body>
